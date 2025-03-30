@@ -1,8 +1,5 @@
 {
-  "rewrites": [
-    {
-      "source": "/((?!singin).*)",
-      "destination": "/singin"
-    }
-  ]
-}
+   "rewrites": [
+     { "source": "/(.*)", "destination": "/" }
+   ]
+ }
